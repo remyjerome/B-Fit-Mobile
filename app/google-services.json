@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "685154663916",
+    "firebase_url": "https://b-fit-mobile.firebaseio.com",
+    "project_id": "b-fit-mobile",
+    "storage_bucket": "b-fit-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685154663916:android:70bf3101365de61d",
+        "android_client_info": {
+          "package_name": "com.jerome.remy.b_fit_data"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685154663916-508gfd6rqqm4283cd07srcve8f44ir0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-P7VJnfeUAHQq8qmK5Hx6BTSySOwcsmg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

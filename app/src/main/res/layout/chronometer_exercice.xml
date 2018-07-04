@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jerome.remy.b_fit_data.MainActivity">
+
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#1aff00"
+        android:textStyle="bold"
+        android:layout_marginTop="102dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:id="@+id/strbutton"
+        android:layout_below="@+id/chronometer"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:id="@+id/stpbutton"
+        android:layout_below="@+id/strbutton"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/exerciceChrono"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Exercice X"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/nextbutton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stpbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="NEXT" />
+
+
+</RelativeLayout>
